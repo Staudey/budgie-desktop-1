@@ -31,6 +31,7 @@ public class TasklistApplet : Budgie.Applet {
 		scroller.shadow_type = Gtk.ShadowType.NONE;
 		scroller.hscrollbar_policy = Gtk.PolicyType.EXTERNAL;
 		scroller.vscrollbar_policy = Gtk.PolicyType.NEVER;
+		scroller.set_valign(Gtk.Align.CENTER);
 
 		tlist.set_scroll_enabled(false);
 
